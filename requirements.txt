@@ -1,0 +1,15 @@
+# The source notebook installed/upgraded these packages without recording final versions.
+# Keep versions unpinned to avoid inventing a reproducible environment.
+torch
+transformers
+datasets
+peft
+trl
+bitsandbytes>=0.46.1
+accelerate
+torchao
+pyarrow
+pandas
+tqdm
+fastapi
+uvicorn[standard]

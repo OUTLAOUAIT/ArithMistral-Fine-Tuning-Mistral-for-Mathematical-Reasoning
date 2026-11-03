@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "math-modal-finetuning"
+version = "0.1.0"
+description = "Notebook-derived GSM8K fine-tuning, inference, and evaluation workflows"
+requires-python = ">=3.10"
+
+[project.scripts]
+math-modal = "math_modal.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

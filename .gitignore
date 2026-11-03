@@ -1,0 +1,8 @@
+/Math_Models_Trained.ipynb
+
+# Local environments and generated model/evaluation outputs.
+.venv/
+__pycache__/
+*.py[cod]
+/openai-gsm8k/
+/gsm8k_evaluation/
